@@ -1,20 +1,38 @@
 export default [
    {
-      title: 'Terminal Website',
-      imgUrl: '/assets/terminal-website.jpg',
-      stack: ['HTML', 'CSS', 'JavaScript'],
-      link: 'https://fkcodes.com',
+      title: 'Sistema de gestión Bull Gym',
+      imgUrl: '/assets/bull-backend.png',
+      stack: ['JavaScript', 'Express', 'Sequelize'],
+      link: 'https://github.com/MrBarbo/bull-backend',
    },
    {
       title: 'Developer Portfolio',
-      imgUrl: '/assets/dev-portfolio.jpg',
+      imgUrl: '/assets/dev-port.png',
       stack: ['React', 'Tailwind', 'Vite'],
       link: 'https://thehackershideout.com',
    },
    {
-      title: 'AI Nerf Gun',
-      imgUrl: '/assets/ai-nerf-gun.jpg',
-      stack: ['Python', 'C++', 'Robotics'],
-      link: 'https://youtu.be/A8eegxL82PI',
+      title: 'Implementación patrón Builder con Python',
+      imgUrl: '/assets/builder.png',
+      stack: ['Python'],
+      link: 'https://github.com/MrBarbo/Builder-Pattern-Python',
+   },
+   {
+      title: 'Implementación simulación blockchain con Python',
+      imgUrl: '/assets/blockchain.png',
+      stack: ['Python'],
+      link: 'https://github.com/MrBarbo/Blockchain-Python',
+   },
+   {
+      title: 'Chat UCP',
+      imgUrl: '/assets/chat-ucp.png',
+      stack: ['JavaScript','SQL','Express'],
+      link: 'https://github.com/MrBarbo/Blockchain-Python',
+   },
+   {
+      title: 'CryptoSim',
+      imgUrl: '/assets/cryptosim.png',
+      stack: ['JavaScript','SQL','Express'],
+      link: 'https://github.com/MrBarbo/Blockchain-Python',
    },
 ]

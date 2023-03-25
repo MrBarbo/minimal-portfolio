@@ -1,29 +1,17 @@
 import React from 'react';
+import pic from '../../profile.jpg'
 
 function Intro() {
    return (
-      <div className="flex items-center justify-center flex-col text-center pt-20 pb-6">
-         <h1 className="text-4xl md:text-7xl dark:text-white mb-1 md:mb-3 font-bold">Forrest</h1>
-         <p className="text-base md:text-xl mb-3 font-medium">Software Engineer & Web Developer</p>
-         <p className="text-sm max-w-xl mb-6 font-bold">
-            I'm an indie full-stack developer and content creator building my
-            version of the digital world one step at a time. All coding projects
-            are built from the ground up, from planning and designing all the way
-            to solving real-life problems with code.
-            <br />
-            All video content is built the same way, from ideation and planning,
-            all the way to finalizing the content with artistic touches. I publish
-            that content on my YouTube channel{' '}
-            <a
-               href="https://youtube.com/fknight"
-               target="_blank"
-               className="text-cyan-600 hover:underline underline-offset-2 decoration-2 decoration-red-600"
-               rel="noreferrer noopener"
-            >
-               ForrestKnight
-            </a>{' '}
-            to more than 400k subscribers.
-         </p>
+      <div className='flex flex-row'>
+         <div className="flex items-center justify-center flex-col text-center pt-20 pb-6">
+            <h1 className="text-4xl md:text-7xl dark:text-white mb-1 md:mb-3 font-bold">Iván Barboza</h1>
+            <p className="text-base md:text-xl mb-3 font-medium">Estudiante Ingeniería en Sistemas de Información</p>
+            <p className="text-sm max-w-xl mb-6 font-bold">
+            Soy Estudiante de Ingeniería en Sistemas de Información en mi último año. Tengo la creencia de que el progreso y la felicidad de las personas deben ser el foco del trabajo. Constantemente descubriendo y aprendiendo nuevas oportunidades y tecnologías, incluyendo la inteligencia artificial, el análisis de datos y la programación.
+            </p>
+         </div>
+         <div className='mt-20 ml-20 w-1/5 h-1/5 border border-gray-1 inline-block'><img src={pic} alt="My Picture" className="object-contain w-full h-full"/></div>
       </div>
    )
 }
