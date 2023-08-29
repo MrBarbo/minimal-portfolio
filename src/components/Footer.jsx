@@ -6,6 +6,7 @@ function Footer() {
 			<a href="/assets/Barboza-CV.pdf" download>¡Descarga mi CV!</a>
 				<div className="mt-10 container max-w-screen-lg mx-auto">
 					<div>
+
 						<div className="flex flex-wrap justify-center gap-2">
 							<a 
 								href="https://www.linkedin.com/in/ivan-maximiliano-barboza-379384152/"

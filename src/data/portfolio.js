@@ -29,4 +29,10 @@ export default [
       stack: ['JavaScript','SQL','Express'],
       link: 'https://github.com/nicolasboattini/CryptoSim',
    },
+   {
+      title: 'React Calculator',
+      imgUrl:'/assets/reactcalc.png',
+      stack: ['JavaScript', 'React'],
+      link: 'https://github.com/MrBarbo/react-calculator'
+   },
 ]
